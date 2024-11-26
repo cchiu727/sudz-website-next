@@ -25,11 +25,11 @@ export default function Navbar() {
                 </div>
                 <div className={styles.navRight}>
                     <ul className={classNames(styles.navLinkContainer, { [styles.open]: isMenuOpen })}>
-                        <li><a href="/" className={styles.navLink}>Home</a></li>
-                        <li><a href="/services.html" className={styles.navLink}>Services</a></li>
-                        <li><a href="/pricing.html" className={styles.navLink}>Pricing</a></li>
-                        <li><a href="/locations.html" className={styles.navLink}>Locations</a></li>
-                        <li><a href="/contact-us.html" className={styles.navLink}>Contact Us</a></li>
+                        <li><Link href="/" className={styles.navLink}>Home</Link></li>
+                        <li><Link href="/services.html" className={styles.navLink}>Services</Link></li>
+                        <li><Link href="/pricing.html" className={styles.navLink}>Pricing</Link></li>
+                        <li><Link href="/locations.html" className={styles.navLink}>Locations</Link></li>
+                        <li><Link href="/contact-us.html" className={styles.navLink}>Contact Us</Link></li>
                     </ul>
                     <button className={styles.menuToggle} onClick={toggleMenu}><span className="material-icons">{ isMenuOpen ? 'close' : 'menu'}</span></button>
                 </div>
