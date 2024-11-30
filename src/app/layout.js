@@ -3,7 +3,7 @@ import "./globals.css";
 
 import Navbar from '@/components/navbar/Navbar';
 // import Header from '@/components/header/Header';
-// import Footer from '@/components/footer/Footer';
+import Footer from '@/components/footer/Footer';
 
 
 export const metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           {/* <Header /> */}
           <main>{children}</main>
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </body>
     </html>

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 56px;
     background-color: var(--theme-dark-blue);
     color: white;
 }
@@ -45,10 +45,10 @@
         overflow: hidden;
         flex-direction: column;
         position: absolute;
-        top: 50px;
+        top: 56px;
         right: 0;
         padding: 16px 8px;
-        width: 30vw;
+        width: 28vw;
         background-color: var(--theme-dark-blue);
         border-bottom-left-radius: 10px;
         transition: max-height 0.20s ease, opacity 0s ease; 
@@ -59,7 +59,7 @@
         opacity: 1;
         gap: 20px;
         z-index: 10;
-        height: 240px;
+        height: 200px;
         max-height: 240px;
         /* transition: max-height 0.20s ease, opacity 0s ease; */
     }
