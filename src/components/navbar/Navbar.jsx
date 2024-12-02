@@ -25,7 +25,7 @@ export default function Navbar() {
             <div className={styles.navRight}>
                 <ul className={classNames(styles.navLinkContainer, { [styles.open]: isMenuOpen })}>
                     <li><Link href="/" className={styles.navLink}>Home</Link></li>
-                    <li><Link href="/services.html" className={styles.navLink}>Services</Link></li>
+                    <li><Link href="" className={styles.navLink}>Services</Link></li>
                     <li><Link href="/pricing.html" className={styles.navLink}>Pricing</Link></li>
                     <li><Link href="/locations.html" className={styles.navLink}>Locations</Link></li>
                     <li><Link href="/contact-us.html" className={styles.navLink}>Contact Us</Link></li>
