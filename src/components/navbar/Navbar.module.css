@@ -32,6 +32,10 @@
         gap: 4vw;
     }
 
+    .navLink:hover {
+        text-decoration: underline;
+    }
+
 	.menuToggle {
         display: none;
     }

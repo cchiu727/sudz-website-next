@@ -123,6 +123,10 @@ h5 {
 }
 /* ================ */
 
+a {
+	color: inherit;
+}
+
 /* DESKTOP */
 @media only screen and (min-width: 751px) {
 	.container {
