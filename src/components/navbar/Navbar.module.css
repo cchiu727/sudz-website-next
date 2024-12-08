@@ -63,7 +63,7 @@
         opacity: 1;
         gap: 20px;
         z-index: 10;
-        height: 200px;
+        height: 100%;
         max-height: 240px;
         /* transition: max-height 0.20s ease, opacity 0s ease; */
     }

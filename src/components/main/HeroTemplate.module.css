@@ -1,0 +1,62 @@
+.coaButton {
+    background-color: var(--theme-green);
+    color: white;
+    text-align: center;
+}
+
+.heroHeader {
+    font-weight: bold;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 751px) {
+    .heroContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+        padding: 0 16vw; /* Maintain .container padding but only on desktop */
+    }
+
+    .heroBackgroundImage {
+        position: absolute;
+        top: 0px;
+        z-index: -1;
+        width: 30%;
+        height: auto;
+    }
+
+    .heroImage {
+        width: 40vw;
+        height: auto;
+        min-width: 300px;
+    }
+
+    .heroContentContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        max-height: 320px;
+    }
+
+    .coaContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .coaButton {
+        background-color: var(--theme-red);
+        width: 50%;
+        color: white;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 750px) {
+    .heroImage {
+        width: 100%;
+        height: auto;
+    }
+}
