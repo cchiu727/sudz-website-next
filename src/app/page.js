@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 import HeroTemplate from '@/components/main/HeroTemplate';
+import FeaturesTemplate from "@/components/main/FeaturesTemplate";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         coaButtonText={'Special Offer'}
         coaSubtitleText={'Limited Time Offer for New Customers!'}
       />
+      <FeaturesTemplate />
     </>
   );
 }

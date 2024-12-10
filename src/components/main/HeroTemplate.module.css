@@ -47,7 +47,6 @@
     }
 
     .coaButton {
-        background-color: var(--theme-red);
         width: 50%;
         color: white;
     }

@@ -127,6 +127,15 @@ a {
 	color: inherit;
 }
 
+.header-lg {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.header-md {
+	font-size: 2rem;
+}
+
 .subtitle-md {
 	font-size: 1.5rem;
 }
@@ -149,7 +158,7 @@ button {
 	}
 
 	.subcontainer {
-		padding: 16px 0;
+		padding: 64px 0;
 	}
 }
 

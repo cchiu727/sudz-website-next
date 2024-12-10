@@ -12,7 +12,7 @@ export default function HeroTemplate({ imageURL, headerText, subtitleText, coaUR
                 <Image src={ imageURL } alt="Placeholder" width="360" height="240" unoptimized className={styles.heroImage} />
             </div>
             <div className={classNames(styles.heroContentContainer, 'container', 'subcontainer')}>
-                <h1 className={styles.heroHeader}>{headerText}</h1>
+                <p className='header-lg'>{headerText}</p>
                 <p className='subtitle-md'>{subtitleText}</p>
                 <div className={styles.coaContainer}>
                     <Link href={coaURL}><button className={styles.coaButton}>{coaButtonText}</button></Link>
