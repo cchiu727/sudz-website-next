@@ -45,7 +45,7 @@ export default function FeaturesTemplate() {
                     <div className={styles.feature}>
                         <div className={classNames(styles.featureHeaderContainer, styles.reverse)}>
                             <Image src='/delivery-icon.svg' alt='Delivery van graphic' width='100' height='100' className={styles.featureIcon} />
-                            <p className='header-md'>Placeholder</p>
+                            <p className='header-md'>Placeholder Placeholder</p>
                         </div>
                         <p className='subtitle-md'>
                             Placeholder description.
