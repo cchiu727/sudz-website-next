@@ -32,6 +32,10 @@
         gap: 4vw;
     }
 
+    .navLink {
+        font-size: 1.25rem;
+    }
+
     .navLink:hover {
         text-decoration: underline;
     }
