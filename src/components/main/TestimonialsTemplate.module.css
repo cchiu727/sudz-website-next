@@ -1,0 +1,20 @@
+.testimonials {
+    background-color: var(--theme-blue);
+    color: white;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.quoteContainer {
+    padding: 16px 0;
+}
+
+.quoteIcon {
+    font-size: 3rem;
+    display: block;
+}
+
+.authorContainer {
+    text-align: right;
+}

@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 import HeroTemplate from '@/components/main/HeroTemplate';
 import FeaturesTemplate from "@/components/main/FeaturesTemplate";
+import TestimonialsTemplate from "@/components/main/TestimonialsTemplate";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         coaSubtitleText={'Limited Time Offer for New Customers!'}
       />
       <FeaturesTemplate />
+      <TestimonialsTemplate />
     </>
   );
 }
