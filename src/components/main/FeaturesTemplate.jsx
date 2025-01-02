@@ -23,7 +23,7 @@ export default function FeaturesTemplate() {
                         </p>
                     </div>
                     <div className={styles.feature}>
-                        <div className={classNames(styles.featureHeaderContainer, styles.reverse)}>
+                        <div className={styles.featureHeaderContainer}>
                             <Image src='/clean-icon.svg' alt='Bucket of cleaning supplies next to a broom graphic' width='100' height='100' className={styles.featureIcon} />
                             <p className='header-md'>Cleanliness Guaranteed</p>
                         </div>
@@ -40,15 +40,6 @@ export default function FeaturesTemplate() {
                         <p className='subtitle-md'>
                             Our convenient laundry pickup and delivery service gets your laundry 
                             clean right at your door!See pricing for more details.
-                        </p>
-                    </div>
-                    <div className={styles.feature}>
-                        <div className={classNames(styles.featureHeaderContainer, styles.reverse)}>
-                            <Image src='/delivery-icon.svg' alt='Delivery van graphic' width='100' height='100' className={styles.featureIcon} />
-                            <p className='header-md'>Placeholder Placeholder</p>
-                        </div>
-                        <p className='subtitle-md'>
-                            Placeholder description.
                         </p>
                     </div>
                 </div>

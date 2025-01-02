@@ -55,8 +55,8 @@
         position: absolute;
         top: 56px;
         right: 0;
-        padding: 16px 8px;
-        width: 28vw;
+        padding: 16px 16px;
+        width: 32vw;
         background-color: var(--theme-dark-blue);
         border-bottom-left-radius: 10px;
         transition: max-height 0.20s ease, opacity 0s ease; 

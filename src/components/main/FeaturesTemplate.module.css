@@ -26,7 +26,7 @@
     .feature {
         display: flex;
         flex-direction: column;
-        flex: 0 auto 232px;
+        flex: 0 0 220px;
         gap: 16px;
     }
 
@@ -54,15 +54,12 @@
     .featureHeaderContainer {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
         gap: 8vw;
-        text-align: right;
     }
 
-    .reverse {
-        display: flex;
-        flex-direction: row-reverse;
-        text-align: left;
+    .featureIconContainer {
+        flex: 0 2 100px;
     }
 }

@@ -129,7 +129,6 @@ a {
 
 .header-lg {
 	font-size: 2.5rem;
-	font-weight: bold;
 }
 
 .header-md {
@@ -144,7 +143,7 @@ a {
 	font-size: 1.25rem;
 }
 
-button {
+.button {
 	border: none;
 	padding: 16px 24px;
 	font-size: 1.125rem;
@@ -162,12 +161,13 @@ button {
 	}
 }
 
+/* MOBILE */
 @media only screen and (max-width: 750px) {
 	.container {
-		padding: 0 16px;
+		padding: 0 32px;
 	}
 
 	.subcontainer {
-		padding: 8px 0;
+		padding: 32px 0;
 	}
 }
