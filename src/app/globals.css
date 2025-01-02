@@ -135,12 +135,28 @@ a {
 	font-size: 2rem;
 }
 
+.subtitle-lg {
+	font-size: 2rem;
+}
+
 .subtitle-md {
 	font-size: 1.5rem;
 }
 
 .subtitle-sm {
 	font-size: 1.25rem;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
 }
 
 .button {
