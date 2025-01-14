@@ -1,0 +1,17 @@
+.pricingContainerHeader {
+    width: 100%;
+}
+
+.pricingCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 2vw;
+}
+
+.dividerLine {
+	width: 100%;
+	color: var(--theme-green);
+	background-color: var(--theme-green);
+	border: none;
+	height: 3px;
+}

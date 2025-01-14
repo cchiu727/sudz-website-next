@@ -1,0 +1,38 @@
+.pricingCard {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--theme-blue);
+    color: white;
+}
+
+.pricingCardHeader {
+    font-size: 1.75rem;
+}
+
+.pricingCardRate {
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 751px) {
+    .pricingCard {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: var(--theme-blue);
+        color: white;
+        padding: 16px;
+        border-radius: 8px;
+        min-width: 320px;
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .pricingCard {
+        gap: 8px;
+        padding: 16px;
+        border-radius: 8px;
+    }
+}

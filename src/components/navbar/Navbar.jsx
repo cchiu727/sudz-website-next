@@ -18,15 +18,15 @@ export default function Navbar() {
     return (
         <nav className={classNames(styles.navbar, 'container')}>
             <div className={styles.navLeft}>
-                <a href="/">
+                <Link href="/">
                     <Image src={`/banner-logo-green.jpg`} alt="Sudz Laundry House Logo" width="165" height="40" unoptimized className={styles.bannerLogo}/>
-                </a>
+                </Link>
             </div>
             <div className={styles.navRight}>
                 <ul className={classNames(styles.navLinkContainer, { [styles.open]: isMenuOpen })}>
                     <li><Link href="/" className={styles.navLink}>Home</Link></li>
                     <li><Link href="" className={styles.navLink}>Services</Link></li>
-                    <li><Link href="/pricing.html" className={styles.navLink}>Pricing</Link></li>
+                    <li><Link href="/pricing" className={styles.navLink}>Pricing</Link></li>
                     <li><Link href="/locations.html" className={styles.navLink}>Locations</Link></li>
                     <li><Link href="/contact-us.html" className={styles.navLink}>Contact Us</Link></li>
                 </ul>

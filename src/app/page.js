@@ -1,6 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 import HeroTemplate from '@/components/main/HeroTemplate';
 import FeaturesTemplate from "@/components/main/FeaturesTemplate";
 import TestimonialsTemplate from "@/components/main/TestimonialsTemplate";

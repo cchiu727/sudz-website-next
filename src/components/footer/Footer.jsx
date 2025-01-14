@@ -74,7 +74,7 @@ export default function Footer() {
                     <ul className={styles.linkContainer}>
                         <li><Link href="/" className={styles.footerLink}>Home</Link></li>
                         <li><Link href="/services.html" className={styles.footerLink}>Services</Link></li>
-                        <li><Link href="/pricing.html" className={styles.footerLink}>Pricing</Link></li>
+                        <li><Link href="/pricing" className={styles.footerLink}>Pricing</Link></li>
                         <li><Link href="/locations.html" className={styles.footerLink}>Locations</Link></li>
                         <li><Link href="/contact-us.html" className={styles.footerLink}>Contact Us</Link></li>
                     </ul>

@@ -127,6 +127,14 @@ a {
 	color: inherit;
 }
 
+hr {
+	width: 100%;
+	color: var(--theme-green);
+	background-color: var(--theme-green);
+	border: none;
+	height: 2px;
+}
+
 .header-lg {
 	font-size: 2.5rem;
 }
@@ -144,7 +152,7 @@ a {
 }
 
 .subtitle-sm {
-	font-size: 1.25rem;
+	font-size: 1.125rem;
 }
 
 .text-left {
@@ -173,7 +181,7 @@ a {
 	}
 
 	.subcontainer {
-		padding: 64px 0;
+		padding: 48px 0;
 	}
 }
 
