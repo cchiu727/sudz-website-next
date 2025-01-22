@@ -127,14 +127,6 @@ a {
 	color: inherit;
 }
 
-hr {
-	width: 100%;
-	color: var(--theme-green);
-	background-color: var(--theme-green);
-	border: none;
-	height: 2px;
-}
-
 .header-lg {
 	font-size: 2.5rem;
 }
@@ -181,7 +173,7 @@ hr {
 	}
 
 	.subcontainer {
-		padding: 48px 0;
+		padding: 32px 0;
 	}
 }
 
@@ -192,6 +184,6 @@ hr {
 	}
 
 	.subcontainer {
-		padding: 32px 0;
+		padding: 24px 0;
 	}
 }

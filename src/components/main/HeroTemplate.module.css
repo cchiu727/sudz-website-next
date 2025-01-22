@@ -3,6 +3,12 @@
     color: white;
     text-align: center;
     text-decoration: none;
+    transition: background-color ease 0.1s;
+}
+
+.coaButton:hover {
+    background-color: var(--theme-dark-green);
+    transition: background-color ease 0.1s;
 }
 
 .heroHeader {
@@ -41,7 +47,7 @@
     }
 
     .heroContentContainer {
-        flex: 2 0 200px;
+        flex: 3 2 300px;
     }
 
     .coaContainer {

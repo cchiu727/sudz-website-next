@@ -9,9 +9,9 @@ export default function Home() {
         imageURL={'/hero-image.jpg'}
         headerText={'Laundry Service done right'}
         subtitleText={"Sudz Laundry House is So Cal's Premiere 5-Star Laundry Services"}
-        coaURL={'/'}
+        coaURL={'/special-offer'}
         coaButtonText={'Special Offer'}
-        coaSubtitleText={'Limited Time Offer for New Customers!'}
+        coaSubtitleText={'Limited Time Offer for New Fluff & Fold Customers!'}
       />
       <FeaturesTemplate />
       <TestimonialsTemplate />
