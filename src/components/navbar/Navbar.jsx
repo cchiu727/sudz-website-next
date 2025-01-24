@@ -28,7 +28,7 @@ export default function Navbar() {
                     <li><Link href="" className={styles.navLink}>Services</Link></li>
                     <li><Link href="/pricing" className={styles.navLink}>Pricing</Link></li>
                     <li><Link href="/locations.html" className={styles.navLink}>Locations</Link></li>
-                    <li><Link href="/contact-us.html" className={styles.navLink}>Contact Us</Link></li>
+                    <li><Link href="/contact-us" className={styles.navLink}>Contact Us</Link></li>
                 </ul>
                 <button className={styles.menuToggle} onClick={toggleMenu}><span className="material-icons">{ isMenuOpen ? 'close' : 'menu'}</span></button>
             </div>

@@ -76,7 +76,7 @@ export default function Footer() {
                         <li><Link href="/services.html" className={styles.footerLink}>Services</Link></li>
                         <li><Link href="/pricing" className={styles.footerLink}>Pricing</Link></li>
                         <li><Link href="/locations.html" className={styles.footerLink}>Locations</Link></li>
-                        <li><Link href="/contact-us.html" className={styles.footerLink}>Contact Us</Link></li>
+                        <li><Link href="/contact-us" className={styles.footerLink}>Contact Us</Link></li>
                     </ul>
                 </div>
             </div>
