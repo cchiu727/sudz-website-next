@@ -1,0 +1,13 @@
+.formRow {
+    display: flex;
+    gap: 16px;
+    padding: 8px 0;
+}
+
+.formLabel {
+    display: block;
+}
+
+.formInput {
+    display: block;
+}
